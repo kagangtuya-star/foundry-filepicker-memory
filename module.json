@@ -1,0 +1,38 @@
+{
+  "id": "filepicker-memory",
+  "title": "FilePicker Memory",
+  "description": "Remembers the last opened FilePicker path for each picker type, including S3 source and bucket.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "FilePicker Memory Contributors"
+    }
+  ],
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "cn",
+      "name": "简体中文",
+      "path": "lang/cn.json"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "lib-wrapper",
+        "type": "module"
+      }
+    ]
+  }
+}

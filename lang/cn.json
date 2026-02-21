@@ -1,0 +1,13 @@
+{
+  "FILEPICKER_MEMORY": {
+    "Settings": {
+      "ForceRestore": {
+        "Name": "强制使用上次路径",
+        "Hint": "开启后，每个文件选择器实例首次打开时都会跳转到该类型记忆的上次路径，即使当前已有默认路径（例如已设置头像）也会覆盖。"
+      }
+    },
+    "Notifications": {
+      "MissingLibWrapper": "FilePicker Memory 需要 libWrapper 模组，请先启用 libWrapper。"
+    }
+  }
+}
