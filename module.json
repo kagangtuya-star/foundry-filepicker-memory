@@ -2,10 +2,10 @@
   "id": "filepicker-memory",
   "title": "FilePicker Memory",
   "description": "Remembers the last opened FilePicker path for each picker type, including S3 source and bucket.",
-  "version": "1.0.0",
+  "version": "#{VERSION}#",
   "authors": [
     {
-      "name": "FilePicker Memory Contributors"
+      "name": "StatDust"
     }
   ],
   "esmodules": [
@@ -34,5 +34,10 @@
         "type": "module"
       }
     ]
-  }
+  },
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
+  "license": "LICENSE",
+  "readme": "README.md",
 }
